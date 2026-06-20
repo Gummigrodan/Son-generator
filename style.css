@@ -13,10 +13,9 @@ div {
 }
 
 img {
-    max-width: 100%;
-    width: 512px;
-    height: auto;
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 button {
@@ -29,6 +28,7 @@ button {
 @media (max-width: 600px) {
     div {
         padding-top: 2rem;
+        padding-inline: 1rem;
     }
 
     button {
