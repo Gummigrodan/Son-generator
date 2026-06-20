@@ -1,6 +1,6 @@
 const images = Array.from(
     { length: 50 },
-    (_, i) => `static/reddit_images/${i + 1}.webp`
+    (_, i) => `reddit_images/${i + 1}.webp`
 );
 
 
