@@ -2,7 +2,13 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 20px;
-    overflow-y: hidden;
+}
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+  position: fixed;
+  width: 100%;
 }
 
 div {
