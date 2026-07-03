@@ -1,5 +1,5 @@
 const images = Array.from(
-    { length: 50 },
+    { length: 62 },
     (_, i) => `reddit_images/${i + 1}.webp`
 );
 
